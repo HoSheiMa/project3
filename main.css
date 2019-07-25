@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+.bg {
+  background-image: url("./bg/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 115%;
+  width: 100%;
+  height: 100vh;
+}
+.a-font {
+  font-family: "Roboto", sans-serif;
+}
+.bdr {
+}
+.fly-o {
+  position: fixed;
+  bottom: 2%;
+  right: 2%;
+}
+.stt {
+  display: inline-block;
+  position: absolute;
+  margin-left: 10%;
+  margin-top: -8%;
+}
+@media (min-width: 1024px) {
+  .stt {
+    margin-left: 8%;
+    margin-top: -2%;
+  }
+}
+@media (max-width: 1024px) and (min-width: 576px) {
+  .stt {
+    margin-top: -4%;
+  }
+}
+@media (max-width: 576px) and (min-width: 500px) {
+  .stt {
+    margin-top: -5%;
+  }
+}
+.col_login {
+  background-color: rgba(255, 255, 255, 0.8);
+  height: 100vh;
+  box-shadow: 20px 0px 100px #fff;
+}
+.col_login form input[name] {
+  width: 80%;
+}
+.mg {
+  margin-top: 25%;
+}
+.bs {
+  margin-bottom: 0;
+}
+/*page 2*/
+#myTextArea {
+  widows: 100%;
+  height: 300px;
+}
+.h {
+  height: 50vh;
+  background-color: #fff;
+}
+@media (max-width: 576px) {
+  .share_btn_col {
+    width: 100%;
+  }
+  .share_btn {
+    width: 100%;
+  }
+}
+.livespell_textarea {
+  border-radius: 3px;
+  border: none;
+}
+
+#myTextArea2 {
+  widows: 100%;
+  height: 35px;
+  margin-bottom: 20px;
+  font-size: 21px;
+}
+.mg2 {
+  margin-top: 20px;
+}
+.s_sniffer {
+  overflow-y: scroll;
+  width: 72%;
+  height: 50%;
+  background: #eee;
+  margin-top: 8%;
+}
+
+.r_shower {
+  width: 100vw;
+  position: absolute;
+  height: 100vh;
+  background-color: #eeeeee;
+  z-index: 99;
+  display: none;
+  top: 0;
+  left: 0;
+}
+.r_shower2 {
+  width: 100vw;
+  position: absolute;
+  height: 100vh;
+  background-color: #eeeeee;
+  z-index: 99;
+  display: none;
+  top: 0;
+  left: 0;
+}
+
+.close_ico {
+  color: white;
+  position: absolute;
+  right: 2%;
+  top: 1%;
+  cursor: pointer;
+  font-size: 32px;
+}
+.color_N {
+  background: #ffab40;
+  color: white;
+}
+#cotxt {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0%;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(255, 255, 255, 0.8);
+  z-index: 2;
+}
+.contxt_close {
+  position: absolute;
+  right: 3%;
+  top: 3%;
+  cursor: pointer;
+}
+
+.contxt_head {
+  width: 100%;
+  height: 15%;
+  font-size: 44px;
+  padding: 2% 0 0 15%;
+}
+.contxt_body {
+  font-size: 22px;
+  padding: 2% 0 0 15%;
+  width: 85%;
+  word-break: break-all;
+}
